@@ -13,15 +13,31 @@ body {
 
 header {
   display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
   align-items: center;
   padding: 0px;
   padding-left: 20px;
   background-color: #f4f4f4;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
+.logo_container {
+  display: flex;
+  height: auto;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
 .logo {
   width: 80px;
+  height: 80px;
+}
+.subtitle {
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .container {
@@ -29,7 +45,13 @@ header {
   margin: 0 auto;
   padding: 20px;
 }
-
+.resurses {
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
 .category {
   margin-bottom: 40px;
 }
